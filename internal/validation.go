@@ -11,7 +11,7 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/samber/lo"
 
-	"github.com/bitonicnl/verify-signed-message/internal/flags"
+	"github.com/Fueav/verify-signed-message/internal/flags"
 )
 
 // ValidateP2PKH ensures that the passed P2PKH address matches the address generated from the public key hash, recovery flag and network.

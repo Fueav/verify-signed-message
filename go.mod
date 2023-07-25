@@ -1,4 +1,4 @@
-module github.com/bitonicnl/verify-signed-message
+module github.com/Fueav/verify-signed-message
 
 go 1.18
 

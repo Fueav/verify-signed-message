@@ -6,7 +6,7 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/bitonicnl/verify-signed-message)
+      - prefix(github.com/Fueav/verify-signed-message)
       - blank
       - dot
     skip-generated: false
@@ -28,7 +28,7 @@ linters-settings:
       - whyNoLint
       - wrapperFunc
   goimports:
-    local-prefixes: github.com/bitonicnl/verify-signed-message
+    local-prefixes: github.com/Fueav/verify-signed-message
   govet:
     check-shadowing: true
     settings:

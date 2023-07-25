@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bitonicnl/verify-signed-message/internal"
+	"github.com/Fueav/verify-signed-message/internal"
 )
 
 func TestCreateMagicMessage(t *testing.T) {

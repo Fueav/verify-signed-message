@@ -1,10 +1,10 @@
 # Bitcoin Signed Message Verifier
 
-[![Latest tag](https://img.shields.io/github/tag/bitonicnl/verify-signed-message.svg)](https://github.com/bitonicnl/verify-signed-message/tags)
+[![Latest tag](https://img.shields.io/github/tag/bitonicnl/verify-signed-message.svg)](https://github.com/Fueav/verify-signed-message/tags)
 ![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.18-%23007d9c)
-[![GoDoc](https://godoc.org/github.com/bitonicnl/verify-signed-message?status.svg)](https://pkg.go.dev/github.com/bitonicnl/verify-signed-message)
-[![Tests status](https://github.com/bitonicnl/verify-signed-message/actions/workflows/test.yml/badge.svg)](https://github.com/BitonicNL/verify-signed-message/actions/workflows/test.yml)
-[![Go report](https://goreportcard.com/badge/github.com/bitonicnl/verify-signed-message)](https://goreportcard.com/report/github.com/bitonicnl/verify-signed-message)
+[![GoDoc](https://godoc.org/github.com/Fueav/verify-signed-message?status.svg)](https://pkg.go.dev/github.com/Fueav/verify-signed-message)
+[![Tests status](https://github.com/Fueav/verify-signed-message/actions/workflows/test.yml/badge.svg)](https://github.com/Fueav/verify-signed-message/actions/workflows/test.yml)
+[![Go report](https://goreportcard.com/badge/github.com/Fueav/verify-signed-message)](https://goreportcard.com/report/github.com/Fueav/verify-signed-message)
 [![License](https://img.shields.io/github/license/bitonicnl/verify-signed-message)](./LICENSE)
 
 > A simple Golang package with a single purpose, to verify messages signed via Bitcoin message signing (BMS).
@@ -19,7 +19,7 @@ Your `$PATH` must contain the Go path and the Go `bin` path (see [GoLang's getti
 
 Once done, you can install this package: 
 ```bash
-go get -u github.com/bitonicnl/verify-signed-message
+go get -u github.com/Fueav/verify-signed-message
 ```
 
 ## Usage

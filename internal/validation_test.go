@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/bitonicnl/verify-signed-message/internal"
+	"github.com/Fueav/verify-signed-message/internal"
 )
 
 // Hash for 1DAag8qiPLHh6hMFVu9qJQm9ro1HtwuyK5, used in this test.
