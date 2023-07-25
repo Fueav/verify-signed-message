@@ -94,6 +94,22 @@ func VerifyWithChain(signedMessage SignedMessage, net *chaincfg.Params) (bool, e
 		return false, err
 	}
 
+	switch address.(type) {
+	// Validate P2PKH
+	case *btcutil.AddressPubKeyHash:
+		recoveryFlag = 31
+	// Validate P2SH
+	case *btcutil.AddressScriptHash:
+		recoveryFlag = 36
+	// Validate P2WPKH
+	case *btcutil.AddressWitnessPubKeyHash:
+		recoveryFlag = 40
+	// Validate P2TR
+	case *btcutil.AddressTaproot:
+	// Unsupported address
+	default:
+		return false, fmt.Errorf("unsupported address type '%s'", reflect.TypeOf(address))
+	}
 	// Get the hash from the public key, so we can check that address matches
 	publicKeyHash := internal.GeneratePublicKeyHash(recoveryFlag, publicKey)
 
